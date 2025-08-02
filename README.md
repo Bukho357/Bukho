@@ -4,15 +4,13 @@
 
 This project is a JavaScript-driven **Task Input and Status Validation System** designed to collect and validate task entries from users. Users are guided through entering two tasks, with inputs for task titles, descriptions, and statuses. The system ensures that the status is valid (`todo`, `doing`, or `done`) and automatically formats inputs for consistency. It also outputs relevant information to the console depending on the task completion status.
 
-This project builds upon the corrected version of the **JSL01 (HTML & CSS)** challenge and focuses on logic, input validation, user interaction, and clean code practices in JavaScript.
-
 ---
 
 ## 🚀 Technologies Used
 
 - **HTML5** – Structure and layout
 - **CSS3** – Styling and presentation
-- **JavaScript (ES6)** – Logic, interactivity, and validation
+- **JavaScript** – Logic, interactivity, and validation
 
 ---
 
@@ -44,6 +42,19 @@ To run this project on your local machine:
 
 ---
 
+## 📁 Folder Structure
+
+```
+project-folder/
+│
+├── index.html         # Main HTML file
+├── style.css          # CSS file for basic styling
+├── script.js          # JavaScript file containing all logic
+└── README.md          # Project documentation
+```
+
+---
+
 ## 🧪 Usage Example
 
 When the project runs, users will be prompted to:
@@ -71,11 +82,12 @@ No tasks completed, let's get to work!
 
 ---
 
-## 💡 Interaction Instructions
+## 📋 User Stories
 
-- Enter clear and descriptive values when prompted.
-- Status input **must** be either: `todo`, `doing`, or `done`.
-- Use the **browser console** to see outputs and validation results.
+- As a user, I want to enter two tasks so that I can manage my workflow.
+- As a user, I want the system to guide me if I enter an invalid task status.
+- As a user, I want feedback if none of my tasks are completed to stay motivated.
+- As a developer, I want clean and maintainable code to allow easy updates.
 
 ---
 
@@ -87,7 +99,17 @@ No tasks completed, let's get to work!
 
 ---
 
-## 👤 Author
+## 🕓 Commit History
 
-**Bukho Keanu Gubevu**  
-📅 July 22, 2025
+- `Add initial HTML and CSS structure from corrected JSL01 project`
+- `Add JavaScript file with basic structure and variable declarations`
+- `Implement prompts for task title, description, and status`
+- `Add validation loop for task status input`
+- `Convert all status inputs to lowercase`
+- `Log completed tasks to console or show motivational message if none`
+- `Refactor code for readability and maintainability`
+- `Add inline comments to explain key logic steps`
+- `Update README.md with detailed setup and usage instructions`
+- `Fix grammar and formatting in README.md`
+
+---
